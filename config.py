@@ -1,6 +1,0 @@
-ELASTIC_PASSWORD = "FKPVEwYgSikV5P2uPiEXm3Bk"
-
-# Found in the 'Manage Deployment' page
-CLOUD_ID = "WeatherETL" \
-           ":dXMtY2VudHJhbDEuZ2NwLmNsb3VkLmVzLmlvOjQ0MyQ3MDBmNGQ1NWEyODE0OGFmYjdmNzkwMDFlZTYxNzk5NSRjMjc2ODgxODQ2ODQ0MzU3OTc4OWY0Nzc1NWNiNTIwMg== "
-API_KEY = "a93237aedacad72fa277fdec89387056"
