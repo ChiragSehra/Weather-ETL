@@ -1,0 +1,67 @@
+"mappings" : {
+"properties": {
+"@timestamp": {
+"type": "date"
+},
+"current.clouds": {
+"type": "long"
+},
+"current.dew_point": {
+"type": "double"
+},
+"current.dt": {
+"type": "date",
+"format": "epoch_second"
+},
+"current.feels_like": {
+"type": "double"
+},
+"current.humidity": {
+"type": "long"
+},
+"current.pressure": {
+"type": "long"
+},
+"current.rain.1h": {
+"type": "double"
+},
+"current.sunrise": {
+"type": "date",
+"format": "epoch_second"
+},
+"current.sunset": {
+"type": "date",
+"format": "epoch_second"
+},
+"current.temp": {
+"type": "double"
+},
+"current.uvi": {
+"type": "double"
+},
+"current.visibility": {
+"type": "long"
+},
+"current.weather.description": {
+"type": "keyword"
+},
+"current.weather.icon": {
+"type": "keyword"
+},
+"current.weather.id": {
+"type": "long"
+},
+"current.weather.main": {
+"type": "keyword"
+},
+"current.wind_deg": {
+"type": "long"
+},
+"current.wind_gust": {
+"type": "double"
+},
+"current.wind_speed": {
+"type": "double"
+}
+}
+}
