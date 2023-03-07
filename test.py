@@ -10,8 +10,7 @@ from elasticsearch import Elasticsearch
 ELASTIC_PASSWORD = "FKPVEwYgSikV5P2uPiEXm3Bk"
 
 # Found in the 'Manage Deployment' page
-CLOUD_ID = "WeatherETL" \
-           ":dXMtY2VudHJhbDEuZ2NwLmNsb3VkLmVzLmlvOjQ0MyQ3MDBmNGQ1NWEyODE0OGFmYjdmNzkwMDFlZTYxNzk5NSRjMjc2ODgxODQ2ODQ0MzU3OTc4OWY0Nzc1NWNiNTIwMg== "
+CLOUD_ID = "{{CLOUD ID}}"
 
 # Create the client instance
 client = Elasticsearch(
@@ -28,7 +27,7 @@ location = data["loc"].split(",")
 # print(location[0], location[1])
 lat = location[0]
 lon = location[1]
-API_KEY= "a93237aedacad72fa277fdec89387056"
+API_KEY= "{{API_KEY_FROM_OPENWEATERMAP}}"
 url = "https://api.openweathermap.org/data/2.5/onecall?lat=%s&lon=%s&appid=%s&units=metric" % (lat, lon, API_KEY)
 
 response = requests.get(url)
